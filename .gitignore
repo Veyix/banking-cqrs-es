@@ -1,0 +1,12 @@
+*.suo
+*.tmp_proj
+*.user
+*.dbml
+*.tar
+
+bin
+obj
+packages
+
+/.vs
+/Artemis/Olympus.Artemis.Installer/*
