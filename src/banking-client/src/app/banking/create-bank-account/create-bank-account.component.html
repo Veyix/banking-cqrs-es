@@ -1,0 +1,13 @@
+<form (ngSubmit)="create()" autocomplete="off">
+  <mat-form-field>
+    <input matInput
+           name="bank-account-name"
+           placeholder="Please specify a name for the bank account"
+           [(ngModel)]="name"
+           autofocus />
+  </mat-form-field>
+
+  <button mat-raised-button class="d-block">
+    Create
+  </button>
+</form>

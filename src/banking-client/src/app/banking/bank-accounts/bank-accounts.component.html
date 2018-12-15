@@ -1,0 +1,17 @@
+<h1>
+  Bank Accounts
+</h1>
+
+<a mat-raised-button routerLink="/create-bank-account">
+  Create
+</a>
+
+<div *ngIf="bankAccounts.length === 0">
+  No bank accounts
+</div>
+
+<div *ngIf="bankAccounts.length > 0">
+  <div *ngFor="let bankAccount of bankAccounts">
+    <h3>{{bankAccount.name}}</h3>
+  </div>
+</div>
